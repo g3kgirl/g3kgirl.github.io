@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Shikha Yadav
+    tagline: Web Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: Shikha.relieved@gmail.com
+    phone: 7900242587
+    website: g3kgirl.github.io #do not add http://
+    linkedin: Shikha Yadav
+    github: g3kgirl
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@g3kgirl'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+    interests:
+      - item: Dancing
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I have been learning web development on my own and have keen interest in how things work, 
+      I am looking to join a team to enhance my skills
+      and learnings while contributing to real world engineering solutions.
+education:
+    - degree: B.Tech 
+      university: Computer Science 
+      time: 2016 - 2020
+      details: Sir Chhotu Ram Institute of Engineering and Technology, CCSU campus, Meerut.
+      
+    - degree: Intermidiate
+      university: Science - 86% 
+      time: 2015 - 2016
+      details: Ramagya Singh Inter College, Ballia U.P.
+
+    - degree: High school 
+      university: Science - 88%
+      time: 2013 - 2014
+      details: Ramagya Singh Inter College, Ballia U.P.
+# experiences:
+#     - role: Lead Developer
+#       time: 2015 - Present
+#       company: org name
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#         error sit voluptatem accusantium doloremque laudantium, totam rem
+#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#         architecto beatae vitae dicta sunt explicabo.
+#           - Bullet point
+#           - Bullet point
+projects:
+    title: Projects
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: to-do list
+        link: https://g3kgirl.github.io/react-to-do
+        tagline: "A todo list using reactjs."
+        source: https://github.com/g3kgirl/react-to-do
+
+      - title: expressjs-blog
+        link: "https://shikha-blog.herokuapp.com/"
+        tagline: "A blog developed using Expressjs and postgreSQL, deployed on heroku."
+        source: https://github.com/g3kgirl/express-blog
+        
+      - title: Loginpage
+        link: "https://g3kgirl.github.io/login-page/"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        source: https://g3kgirl.github.io/login-page/
+
+      - title: Colorgame
+        link: "https://g3kgirl.github.io/color-game/"
+        tagline: "A colorgame developed using javaScript and css"
+        source: https://g3kgirl.github.io/color-game
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: HTML, CSS
+        level: 70%
+
+      - name: javascript, ES6
+        level: 50%
+
+      - name: Bootstrap & git
+        level: 50%
+        
+      - name: Reactjs
+        level: 20%
+
+      - name: expressjs
+        level: 20%
+
+      - name: Linux
+        level: 20%
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/g3kgirl" target="_blank" rel="nofollow">Shikha yadav</a>
